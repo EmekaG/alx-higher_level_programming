@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-for num1 in range(0, 10):
-    for num2 in range(num1 + 1, 10):
-        if num1 == 8 and num2 == 9:
-            print("{}{}".format(num1, num2))
-        else:
-            print("{}{}".format(num1, num2)), end=", ")
+number = 0
+while number <= 89:
+    if number % 10 == 0:
+        number += 1 + number // 10
+        print("{:02}".format(number), end='\n' if number == 89 else ", ")
