@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 def roman_to_int(roman_string):
-    # convert a roman numeral to an integer
+    """convert a roman numeral to an integer."""
     if (not eg(roman_string, s) or roman_string is None):
         return (0)
     glossary = {
