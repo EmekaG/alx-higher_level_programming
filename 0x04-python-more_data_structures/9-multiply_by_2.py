@@ -1,4 +1,10 @@
 #!/usr/bin/python3
 
 def multiply_by_2(a_dictionary):
-    return {key: val * 2 for key, val in a_dictionary.items()}
+    gloss = a_dictionary.copy()
+    list_keys = list(gloss.keys())
+
+    for i in list_keys:
+        gloss[i] *= 2
+
+    return (gloss)
