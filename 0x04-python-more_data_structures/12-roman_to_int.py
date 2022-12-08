@@ -7,11 +7,13 @@ def roman_to_int(roman_string):
         return (0)
 
     glossary = {
-            "IV": 4,
-            "XXII": 22,
-            "XXV": 25,
+            "I": 1,
+            "V": 5,
+            "X": 10,
+            "L": 50,
             "C": 100,
-            "CDXLIV": 444,
+            "D": 500,
+            "M": 1000
     }
     n = 0
 
